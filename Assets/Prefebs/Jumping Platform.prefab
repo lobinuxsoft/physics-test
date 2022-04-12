@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8013318952660873362
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4306250996457935521, guid: eb8a35566a9e3dd4d878ea182a50b5f6, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4306250996457935521, guid: eb8a35566a9e3dd4d878ea182a50b5f6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 4306250996457935521, guid: eb8a35566a9e3dd4d878ea182a50b5f6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.5881817
+      objectReference: {fileID: 0}
+    - target: {fileID: 4306250996457935521, guid: eb8a35566a9e3dd4d878ea182a50b5f6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4306250996457935521, guid: eb8a35566a9e3dd4d878ea182a50b5f6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4306250996457935521, guid: eb8a35566a9e3dd4d878ea182a50b5f6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4306250996457935521, guid: eb8a35566a9e3dd4d878ea182a50b5f6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4306250996457935521, guid: eb8a35566a9e3dd4d878ea182a50b5f6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4306250996457935521, guid: eb8a35566a9e3dd4d878ea182a50b5f6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4306250996457935521, guid: eb8a35566a9e3dd4d878ea182a50b5f6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4306250996457935521, guid: eb8a35566a9e3dd4d878ea182a50b5f6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6362530719605576936, guid: eb8a35566a9e3dd4d878ea182a50b5f6, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 815bd3bce2ab33460956c8ca9fe9b972, type: 2}
+    - target: {fileID: 7478890162525894947, guid: eb8a35566a9e3dd4d878ea182a50b5f6, type: 3}
+      propertyPath: m_Name
+      value: Jumping Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 9003578453525307567, guid: eb8a35566a9e3dd4d878ea182a50b5f6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2f78d1de8f277c8c48d0aad637b1e842, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eb8a35566a9e3dd4d878ea182a50b5f6, type: 3}
