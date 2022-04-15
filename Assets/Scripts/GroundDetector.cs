@@ -1,16 +1,21 @@
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody))]
 public class GroundDetector : MonoBehaviour
 {
-    int groundContactCount = 0;
-    Vector3 contactNormal = Vector3.zero;
+    private int groundContactCount = 0;
+    
+    private Vector3 contactNormal = Vector3.zero;
 
     public bool OnGround { get => groundContactCount > 0; }
     public Vector3 Normal { get => contactNormal; }
 
     [SerializeField, Range(0f, 90f)] float maxGroundAngle = 25f;
-    float minGroundDotProduct = 0;
+    
+    private float minGroundDotProduct = 0;
 
+    private Rigidbody body;
+    
     void OnValidate()
     {
         minGroundDotProduct = Mathf.Cos(maxGroundAngle * Mathf.Deg2Rad);
@@ -18,6 +23,7 @@ public class GroundDetector : MonoBehaviour
 
     private void Awake()
     {
+        body = GetComponent<Rigidbody>();
         OnValidate();
     }
 
@@ -25,6 +31,8 @@ public class GroundDetector : MonoBehaviour
     {
         contactNormal = OnGround ? contactNormal.normalized : Vector3.up;
         ClearState();
+
+        if (body.IsSleeping()) groundContactCount = 1;
     }
 
     void ClearState()
